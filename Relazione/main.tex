@@ -2,9 +2,30 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textit{\chaptertitle}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.000009pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\textit{\chaptertitle}}
+  \fancyhead[R]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+}
+
+\newcommand{\chaptertitle}{}
+\renewcommand{\chaptermark}[1]{
+  \markboth{#1}{}
+  \renewcommand{\chaptertitle}{#1}
+}
 
 \geometry{a4paper, margin=1in}
 
@@ -14,7 +35,7 @@
   {\normalfont\Large\bfseries}{\thesection.}{1em}{}
 
 \hypersetup{
-    colorlinks=true,
+    colorlinks=false,
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
@@ -22,6 +43,8 @@
     bookmarks=true,
     pdfpagemode=FullScreen,
 }
+
+\renewcommand{\contentsname}{Indice}
 
 \begin{document}
 
@@ -33,40 +56,33 @@
     \textbf{UNIVERSITÀ DI BOLOGNA}
 
     \vspace{1cm}
-    \large
-    DIPARTIMENTO DI INFORMATICA - SCIENZA E INGEGNERIA \\
-    CORSO DI LAUREA MAGISTRALE DI INFORMATICA\\\vspace{1cm}
-    PROGETTO CORSO DI DIGITAL FORENSICS\\
+    \Large
+    Dipartimento di Informatica - Scienza e Ingegneria \\
+    Corso di Laurea Magistrale in Informatica \\\vspace{1cm}
+    Progetto corso di \href{https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/479039}{Digital Forensics} \\
     A.A. 2024/25
 
-    \vspace{5cm}
-    \textbf{\LARGE 23Bottles S.p.A. vs Partolini S.r.l.}\\
-    \Large Relazione parte convenuta
+    \vspace{5.5cm}
+    \textbf{\LARGE 23Bottles S.p.A. vs Partolini S.r.l.}\\\vspace{0.3cm}
+    \Large Relazione parte Convenuta
 
     \vfill
 
     \vfill
 
-    \Large
+    \large
     Davide De Rosa \hfill Matricola: 0001186536\\
     Marco Coppola \hfill Matricola: 0001170490\\
     Valerio Pio De Nicola \hfill Matricola: 0001170425\\
 \end{titlepage}
 
-% Table of Contents
 \tableofcontents
 \newpage
 
-\chapter{Capitolo 1}
+\chapter{Informazioni amministrative}
 \input{sections/cap1.tex}
 
-\section{Struttura del Report}
-Il report forense è organizzato in tre sezioni principali:
-\begin{itemize}
-    \item \textbf{Narrativa}: descrive il processo investigativo e le conclusioni.
-    \item \textbf{Esibizioni pertinenti (evidenze)}: dettaglia le prove digitali raccolte.
-    \item \textbf{Documentazione di supporto}: fornisce informazioni aggiuntive e tecniche per la trasparenza dell'analisi.
-\end{itemize}
+\pagebreak
 
 \section{Narrativa}
 La narrativa rappresenta la "storia" dell'indagine, spiegando cosa è successo, cosa è stato fatto e quali conclusioni sono state tratte.
