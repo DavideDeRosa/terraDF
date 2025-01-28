@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+\geometry{a4paper, margin=1in}
+
+\titleformat{\chapter}[block]
+  {\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+\titleformat{\section}[block]
+  {\normalfont\Large\bfseries}{\thesection.}{1em}{}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Document},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.1cm}
+
+    \Huge
+    \textbf{UNIVERSITÀ DI BOLOGNA}
+
+    \vspace{1cm}
+    \large
+    DIPARTIMENTO DI INFORMATICA - SCIENZA E INGEGNERIA \\
+    CORSO DI LAUREA MAGISTRALE DI INFORMATICA\\\vspace{1cm}
+    PROGETTO CORSO DI DIGITAL FORENSICS\\
+    A.A. 2024/25
+
+    \vspace{5cm}
+    \textbf{\LARGE 23Bottles S.p.A. vs Partolini S.r.l.}\\
+    \Large Relazione parte convenuta
+
+    \vfill
+
+    \vfill
+
+    \Large
+    Davide De Rosa \hfill Matricola: 0001186536\\
+    Marco Coppola \hfill Matricola: 0001170490\\
+    Valerio Pio De Nicola \hfill Matricola: 0001170425\\
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+\chapter{Capitolo 1}
+\input{sections/cap1.tex}
+
+\section{Struttura del Report}
+Il report forense è organizzato in tre sezioni principali:
+\begin{itemize}
+    \item \textbf{Narrativa}: descrive il processo investigativo e le conclusioni.
+    \item \textbf{Esibizioni pertinenti (evidenze)}: dettaglia le prove digitali raccolte.
+    \item \textbf{Documentazione di supporto}: fornisce informazioni aggiuntive e tecniche per la trasparenza dell'analisi.
+\end{itemize}
+
+\section{Narrativa}
+La narrativa rappresenta la "storia" dell'indagine, spiegando cosa è successo, cosa è stato fatto e quali conclusioni sono state tratte.
+
+\subsection{Cosa dovrebbe contenere la narrativa?}
+\begin{itemize}
+    \item \textbf{Executive Summary (Sintesi Esecutiva)}: panoramica dei punti chiave e delle conclusioni.
+    \item \textbf{Dettagli amministrativi}: elenco delle persone coinvolte (sospetti, vittime, testimoni, investigatori, ecc.).
+    \item \textbf{Fatti e circostanze}: sequenza degli eventi che ha portato all'indagine, incluse sfide affrontate e soluzioni adottate.
+    \item \textbf{Elenco delle prove}: dispositivi esaminati con dettagli tecnici (modello, numero seriale, stato, ecc.).
+\end{itemize}
+
+\subsection{Immagini e screenshot}
+Screenshot e immagini devono essere inclusi solo se spiegati chiaramente, evidenziando la loro rilevanza per il caso.
+
+\section{Esibizioni Pertinenti (Evidenze)}
+Questa sezione descrive in dettaglio le prove digitali raccolte durante l'indagine.
+
+\subsection{Cosa dovrebbe contenere questa sezione?}
+\begin{itemize}
+    \item \textbf{Dettaglio delle prove trovate}: file, immagini o dati specifici e la loro posizione.
+    \item \textbf{Ordine cronologico}: presentazione degli artefatti in ordine temporale per mostrare l'evoluzione degli eventi.
+    \item \textbf{Descrizione degli artefatti}: spiegazione obiettiva di ogni prova, evitando opinioni personali.
+\end{itemize}
+
+\section{Documentazione di Supporto}
+Sezione dedicata alle informazioni tecniche e aggiuntive che garantiscono trasparenza e affidabilità.
+
+\subsection{Cosa include questa sezione?}
+\begin{itemize}
+    \item \textbf{Glossario}: definizione dei termini tecnici utilizzati nel report.
+    \item \textbf{Processo di acquisizione delle immagini forensi}: descrizione del metodo utilizzato per creare copie forensi dei dispositivi.
+\end{itemize}
+
+\section{Conclusione}
+La conclusione riassume le principali scoperte e riflessioni finali.
+
+\subsection{Cosa includere nella conclusione?}
+\begin{itemize}
+    \item \textbf{Sintesi delle prove e dei risultati}: riassunto obiettivo delle evidenze raccolte.
+    \item \textbf{Riflessioni obiettive}: evidenziare eventuali incertezze o limiti delle conclusioni senza fare affermazioni non supportate da prove.
+\end{itemize}
+
+\section{Formattazione e Firma Digitale}
+\begin{itemize}
+    \item \textbf{Firma digitale}: garantisce l'integrità del documento.
+    \item \textbf{Revisione}: il report deve essere sottoposto a rilettura per individuare errori o potenziali ambiguità.
+\end{itemize}
+
+\end{document}
