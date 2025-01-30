@@ -1,0 +1,2 @@
+- [ ] Scrivere metodologia di analisi e tool utilizzati nella relazione
+- [ ] Elencare i file trovati
