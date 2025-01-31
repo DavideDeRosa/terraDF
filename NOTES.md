@@ -86,15 +86,121 @@
 - Giuseppe Pavan (acronimo MR)
 	- **Email**: giuseppe.pavan74@gmail.com
 ### Comunicazioni
-- anrea.zanatta@TTBottles.com -> giulia.zingaro@partolini.com
-	- Richiesta informazioni su ordini di spedizione
-	- Reply:
-		- Proposta di telefonata lavorativa
-		- Notes:
-			- Giulia si firma come Cinzia Zingaro
-- sara.minto80@gmail.com -> giuseppe.pavan74@gmail.com
-	- Stasera ci troviamo al solito posto
-	- Note: Sara si firma come CZ (Cinzia Zingaro?)
+- 4 ottobre 2023, 16:48:56 GMT
+	- From: andrea.zanatta@TTBottles.com
+	- To: giulia.zingaro@partolini.com
+	- Subject: Richiesta informazioni sulle opzioni di spedizione
+	- Location: 
+		- TD-001:
+			- path: `001_Richiesta informazioni sulle opzioni di spedizione.eml`
+			- md5: `5a92b27e5faf5a160fb684f448fa3db0`
+		- HD-001:
+			- path: `Posta in arrivo.dbx`
+- 4 ottobre 2023, 19:52:45 GMT
+	- From: giulia.zingaro@partolini.com
+	- To: andrea.zanatta@TTBottles.com
+	- Subject: **RE**: Richiesta informazioni sulle opzioni di spedizione
+	- Location:
+		- TD-001:
+			- path: `002_Richiesta informazioni sulle opzioni di spedizione.eml`
+			- md5: `344a404af229ab50edd4d3b29d0a117d`
+		- HD-001:
+			- path: `Posta inviata.dbx`
+- 4 ottobre 2023, 19:59:25 GMT
+	- From: sara.minto80@gmail.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Solito
+	- Location:
+		- TD-001:
+			- path: `003_Solito.eml`
+			- md5: `9e41acfa10d77d7f9cb77e405a3f1e97`
+		- HD-001:
+			- path: `Posta inviata.dbx`
+- 5 ottobre 2023, 10:00:25 GM
+	- From: andrea.zanatta@TTBottles.com
+	- To: giulia.zingaro@partolini.com
+	- Subject: Conferma della Proposta e Richiesta di Preventivi
+	- Location:
+		- TD-001:
+			- path: `004_Conferma della Proposta e Richiesta di Preventivi.eml`
+			- md5: `b422bb342c3d5344c83c9ed7c05254ba`
+		- HD-001:
+			- path: `Posta in arrivo.dbx`
+- 5 ottobre 2023, 10:02:12 GMT
+	- From: sara.minto80@gmail.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Solito
+	- Location:
+		- TD-001:
+			- path: `005_Solito.eml`
+			- md5: `108d202d6bda3e49627c368caaf9469e`
+		- HD-001:
+			- path: `Posta eliminata.dbx`
+	- Azioni:
+		- Eliminata: 10:17:56
+- 5 ottobre 2023, 10:18:07 GMT \[CREAZIONE BOZZA]
+	- From: giulia.zingaro@partolini.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Fwd: Quantitativo Totale di Merce per Spedizione
+	- Location:
+		- HD-001:
+			- path: `Bozze.dbx`
+- 5 ottobre 2023, 10:20:12 GMT
+	- From: giulia.zingaro@partolini.com
+	- To: andrea.zanatta@TTBottles.com
+	- Subject: RE: Conferma della Proposta e Richiesta di Preventivi
+	- Attachment:
+		- `Preventivo.docx`
+			- md5: `c6209c7f120a50c82326f5cc3f5af74b`
+	- Location:
+		- TD-001:
+			- path: `006_Conferma della Proposta e Richiesta di Preventivi.eml`
+			- md5: `85dadd2f3c585817f53042fa66970c4e`
+		- HD-001:
+			- path: `Posta inviata.dbx`
+			- md5: `522ee6922ad3e1a1fb08ce7990c67438`
+			- sha-256: `9d4e7ec53726b483c91f3c79164af97c8f2530d9384441c934868e7ca2c85db3`
+- MAIL CORROTTA (DECRIPTARE NON È REALMENTE CORROTTA)
+- 10 ottobre 2023, 16:54:04 \[MODIFICA BOZZA]
+	- From: giulia.zingaro@partolini.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Fwd: Quantitativo Totale di Merce per Spedizione
+	- Location:
+		- HD-001:
+			- path: `Bozze.dbx`
+- 10 ottobre 2023, 16:54:04 GMT
+	- From: giulia.zingaro@partolini.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Fwd: Quantitativo Totale di Merce per Spedizione
+	- Location:
+		- TD-001:
+			- path: `Quantitativo Totale di Merce per Spedizione-3.eml`
+			- md5: `33c0e02a0319f7cddb6861df15247294`
+		- HD-001:
+			- path: `Posta eliminata.dbx`
+	- RICORDATI SE ACCHIAPPI L EVENTO ELIMINAZIONE DI SEGNARLO
+- 10 ottobre 2023, 17:17:59 GMT (RISPOSTA ALLA MAIL CORROTTA)
+	- From: giulia.zingaro@partolini.com
+	- To: andrea.zanatta@TTBottles.com
+	- Replied to:
+		- Location:
+			- TD-001:
+				- path: `_Quantitativo Totale di Merce per Spedizione.pcx`
+				- md5: `c04fcc662ab51933f9c11af9941e7887`
+			- HD-001:
+				- path:
+	- Subject: Re: Quantitativo Totale di Merce per Spedizione
+	- Location:
+		- TD-001:
+			- path: `Quantitativo Totale di Merce per Spedizione-2.eml`
+			- md5: `a2d4d833f3cd7d2fd73787bf3a25731c`
+		- HD-001:
+			- path: `Posta inviata.dbx`
+	
+
 
 ### File Trovati
 - Important Documents: `Laura\Desktop`
+- .CC.txt: 
+	- `Laura\Desktop`
+	- md5: `662a9bc95be6fc0c998d5b68f27469e3`
