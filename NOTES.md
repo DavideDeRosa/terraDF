@@ -160,7 +160,16 @@
 			- path: `Posta inviata.dbx`
 			- md5: `522ee6922ad3e1a1fb08ce7990c67438`
 			- sha-256: `9d4e7ec53726b483c91f3c79164af97c8f2530d9384441c934868e7ca2c85db3`
-- MAIL CORROTTA (DECRIPTARE NON È REALMENTE CORROTTA)
+- 10 ottobre 2023, 15:18 (MAIL CORROTTA)
+	- From: andrea.zanatta@TTBottles.com
+	- To: giulia.zingaro@partolini.com
+	- Subject: Quantitativo Totale di Merce per Spedizione
+	- Location:
+		- TD-001:
+			- path: `_Quantitativo Totale di Merce per Spedizione.eml`
+			- md5: `c04fcc662ab51933f9c11af9941e7887`
+		- HD-001:
+			- path: `Posta in arrivo.dbx`
 - 10 ottobre 2023, 16:54:04 \[MODIFICA BOZZA]
 	- From: giulia.zingaro@partolini.com
 	- To: giuseppe.pavan74@gmail.com
@@ -168,7 +177,7 @@
 	- Location:
 		- HD-001:
 			- path: `Bozze.dbx`
-- 10 ottobre 2023, 16:54:04 GMT
+- 10 ottobre 2023, 16:54:04 GMT (CIFRATA)
 	- From: giulia.zingaro@partolini.com
 	- To: giuseppe.pavan74@gmail.com
 	- Subject: Fwd: Quantitativo Totale di Merce per Spedizione
@@ -182,13 +191,6 @@
 - 10 ottobre 2023, 17:17:59 GMT (RISPOSTA ALLA MAIL CORROTTA)
 	- From: giulia.zingaro@partolini.com
 	- To: andrea.zanatta@TTBottles.com
-	- Replied to:
-		- Location:
-			- TD-001:
-				- path: `_Quantitativo Totale di Merce per Spedizione.pcx`
-				- md5: `c04fcc662ab51933f9c11af9941e7887`
-			- HD-001:
-				- path:
 	- Subject: Re: Quantitativo Totale di Merce per Spedizione
 	- Location:
 		- TD-001:
@@ -196,9 +198,53 @@
 			- md5: `a2d4d833f3cd7d2fd73787bf3a25731c`
 		- HD-001:
 			- path: `Posta inviata.dbx`
-	
-
-
+- 10 ottobre 2023, 20:11:07 GMT
+	- From: giuseppe.pavan74@gmail.com
+	- To: sara.minto80@gmail.com
+	- Subject: Solito
+	- Location:
+		- TD-001:
+			- path: `Solito.eml`
+			- md5: `b0ffd30aee8bcf8fd956ab570c9a944e`
+		- HD-001:
+			- path: `Posta in arrivo.dbx`
+			- path2: `\Documenti\Solito.eml`
+- 11 ottobre 2023
+	- CONSEGNA MERCE
+	- Location:
+		- TD-001:
+			- path: `Consegna.pdf`
+			- md5: `144f73d42b4829be3019c40e782521a3`
+- 20 ottobre 2023, 10:25:49 GMT
+	- From: andrea.zanatta@TTBottles.com
+	- To: giulia.zingaro@partolini.com
+	- Subject: Reclamo per Mancanza di Merce alla Consegna
+	- Location:
+		- TD-001:
+			- path: `Reclamo per Mancanza di Merce alla Consegna.eml`
+			- md5: `6de659d9fc09f9598022a33d44fa4e11`
+		- HD-001:
+			- path: `Posta eliminata.dbx`
+- 20 ottobre 2023, 17:25:49 GMT
+	- From: giulia.zingaro@partolini.com
+	- To: giuseppe.pavan74@gmail.com
+	- Subject: Re: Reclamo per Mancanza di Merce alla Consegna
+	- Location:
+		- TD-001: 
+			- path: `Reclamo per Mancanza di Merce alla Consegna-2.eml`
+			- md5: `1bff11fa796a4bfb5e52f0a3bac2d0b7`
+		- HD-001:
+			- path: `Posta inviata.dbx`
+- 01 dicembre 2023,  08:31:34 GMT
+	- From: andrea.zanatta@TTBottles.com
+	- To: giulia.zingaro@partolini.com
+	- Subject: Fwd: Reclamo per Mancanza di Merce alla Consegna
+	- Location:
+		- TD-001:
+			- path: `Reclamo per Mancanza di Merce alla Consegna-3.eml`
+			- md5: `404382378fd96ae3e59ecfa9f24c7ff3`
+		- HD-001:
+			- path: `Posta in arrivo.dbx`
 ### File Trovati
 - Important Documents: `Laura\Desktop`
 - .CC.txt: 
