@@ -1,0 +1,29 @@
+Osservando i log di sistema all'interno della directory\\
+\textit{C:/Windows/System32/winevt/Logs/} è stato possibile osservare diversi eventi.
+
+\subsection{Cambi di data e ora}
+Tramite il file \textbf{System.evtx} sono stati osservati diversi cambi di data e ora effettuati dall'utente Laura. Di seguito alcuni dei log sospetti:
+\begin{itemize}
+    \item \textbf{Da} 2002-01-11 \textbf{a} 2023-10-04 $\rightarrow$ \textit{Salto di 21 anni}
+    \item \textbf{Da} 2023-10-06 \textbf{a} 2023-05-01 $\rightarrow$ \textit{Retrocesso di 5 mesi}
+    \item \textbf{Da} 2023-10-23 \textbf{a} 2023-10-18 $\rightarrow$ \textit{Retrocesso di 5 giorni}
+    \item \textbf{Da} 2023-10-24 \textbf{a} 2023-10-23 $\rightarrow$ \textit{Retrocesso di 1 giorno}
+    \item \textbf{Da} 2023-05-01 \textbf{a} 2024-05-01 $\rightarrow$ \textit{Avanzato di 1 anno}
+\end{itemize}
+
+\subsection{Accessi al sistema}
+Tramite il file \textbf{Security.evtx} sono stati osservati diversi \textbf{Logon} al sistema. Di seguito alcuni dei log:
+\begin{itemize}
+    \item \textbf{Nome account}: LAURA-PC\$ -- \textbf{Tipo di accesso}: 5 -- \textbf{Data}: 01/05/2023 9:52:39
+    \item \textbf{Nome account}: LAURA-PC\$ -- \textbf{Tipo di accesso}: 2 -- \textbf{Data}: 01/05/2023 9:52:42
+    \item \textbf{Nome account}: LAURA-PC\$ -- \textbf{Tipo di accesso}: 5 -- \textbf{Data}: 01/05/2023 9:52:43
+    \item \textbf{Nome account}: NULL SID -- \textbf{Tipo di accesso}: 3 -- \textbf{Data}: 01/05/2023 9:52:46
+    \item \textbf{Nome account}: LAURA-PC\$ -- \textbf{Tipo di accesso}: 5 -- \textbf{Data}: 01/05/2023 9:52:53
+    \item \textbf{Nome account}: LAURA-PC\$ -- \textbf{Tipo di accesso}: 5 -- \textbf{Data}: 01/05/2023 9:54:47
+\end{itemize}
+Vengono di seguito spiegati brevemente i diversi tipi di accesso:
+\begin{itemize}
+    \item \textbf{Tipo 2}: utente che accede fisicamente al pc, tramite schermata di login
+    \item \textbf{Tipo 3}: utente che accede da remoto via rete
+    \item \textbf{Tipo 5}: login effettuato da servizi di Windows
+\end{itemize}
