@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textit{\chaptertitle}}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.000009pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\textit{\chaptertitle}}
+  \fancyhead[R]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+}
+
+\newcommand{\chaptertitle}{}
+\renewcommand{\chaptermark}[1]{
+  \markboth{#1}{}
+  \renewcommand{\chaptertitle}{#1}
+}
+
+\geometry{a4paper, margin=1in}
+
+\titleformat{\chapter}[block]
+  {\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+\titleformat{\section}[block]
+  {\normalfont\Large\bfseries}{\thesection.}{1em}{}
+
+\hypersetup{
+    colorlinks=false,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Document},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+\renewcommand{\contentsname}{Indice}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.1cm}
+
+    \Huge
+    \textbf{UNIVERSITÀ DI BOLOGNA}
+
+    \vspace{1cm}
+    \Large
+    Dipartimento di Informatica - Scienza e Ingegneria \\
+    Corso di Laurea Magistrale in Informatica \\\vspace{1cm}
+    Progetto corso di \href{https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/479039}{Digital Forensics} \\
+    A.A. 2024/25
+
+    \vspace{5.5cm}
+    \textbf{\LARGE 23Bottles S.p.A. vs Partolini S.r.l.}\\\vspace{0.3cm}
+    \Large Risposta a parte Attore
+
+    \vfill
+
+    \vfill
+
+    \large
+    Davide De Rosa \hfill Matricola: 0001186536\\
+    Marco Coppola \hfill Matricola: 0001170490\\
+    Valerio Pio De Nicola \hfill Matricola: 0001170425\\
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\chapter{Risposta a parte Attore}
+
+
+\end{document}
