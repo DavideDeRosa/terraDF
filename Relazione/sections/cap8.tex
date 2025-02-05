@@ -1,14 +1,15 @@
-Alla luce degli elementi sopra esposti, è possibile trarre le seguenti conclusioni:
+Dall’analisi forense condotta sul materiale raccolto, è possibile trarre le seguenti conclusioni, che rafforzano la posizione difensiva di Partolini:
 
 \begin{enumerate}
-    \item \textbf{Incertezza sull'Integrità dei Dati:} Le evidenze di accessi remoti e le manipolazioni nelle date indicano che il materiale informatico su cui si basa il ricorso potrebbe non essere completamente attendibile. Sebbene le comunicazioni ufficiali riportino le date così come registrate dal server di posta elettronica, le anomalie riscontrate impediscono di ricostruire in maniera del tutto certa la cronologia degli eventi, minando in parte le affermazioni di 23Bottles.
-    
-    \item \textbf{Possibile Interferenza Esterna:} La presenza di anomalie legate agli accessi remoti suggerisce che operazioni di modifica potrebbero essere state effettuate da soggetti esterni, il cui intervento ha potenzialmente alterato il contenuto e la veridicità delle comunicazioni e dei documenti.
-    
-    \item \textbf{Ambiguità del File ``important documents'':} Il file inaccessibile rappresenta un punto critico, poiché la sua eventuale decodifica potrebbe far luce sulla corretta gestione del trasporto. La sua inaccessibilità, tuttavia, solleva sospetti circa un tentativo di occultamento o di manomissione dei dati, escludendo così la possibilità di utilizzarlo come prova contro Partolini S.r.l.
-    
-    \item \textbf{Esclusione della Responsabilità di Partolini S.r.l.:} Considerando i fatti sopra descritti, non vi è alcuna prova inconfutabile che Partolini S.r.l. abbia alterato in maniera dolosa o negligente il servizio contrattualmente pattuito. Le anomalie riscontrate nel materiale informatico, seppur parzialmente attribuibili ad interventi esterni e tentativi di manomissione, non dimostrano una mancanza di adempimento da parte di Partolini.
-\end{enumerate}
+    \item \textbf{Validità delle Comunicazioni Ufficiali:}  
+    le email scambiate tra 23Bottles e Partolini, registrate con le date e gli orari indicati dai server di posta elettronica, testimoniano una fase iniziale di trattativa commerciale regolare (ad es. [\ref{email1}], [\ref{email2}]). Tali comunicazioni ufficiali risultano affidabili, mentre le ulteriori email scambiate tramite indirizzi personali sembrano riferirsi a dinamiche interne non per forza riconducibili alle operazioni logistiche.
 
-\section*{Conclusione Generale}
-Alla luce di tutte le evidenze raccolte, si ritiene che il materiale informatico depositato da 23Bottles presenti significative anomalie dovute a accessi remoti e manomissioni, in particolare l'alterazione delle date e l'inaccessibilità del file ``important documents''. Pur riconoscendo che le comunicazioni ufficiali riportano date e orari validi, come registrati dal server di posta elettronica, tali anomalie impediscono una ricostruzione affidabile e completa della vicenda. Ne consegue che le affermazioni di parte attrice non possano essere considerate pienamente attendibili e che non vi siano elementi probatori sufficienti a dimostrare un inadempimento contrattuale da parte di Partolini S.r.l.
+    \item \textbf{Evidenze di Accessi e Operazioni sul Sistema:}  
+    l’analisi del collegamento di un hard disk esterno [\ref{wd}] in data 01/05/2023, unitamente ai log di sistema in \texttt{C:/Windows/System32/winevt/Logs/}, ha rivelato numerosi cambi di data e accessi al sistema, con variazioni temporali significative (ad esempio, un salto di 21 anni e retrocessi di mesi e giorni) effettuati dall’utente Laura.
+
+    \item \textbf{Inaccessibilità del File Important Document.zip:}  
+    il file presente nella directory \texttt{C:/Users/Laura/Desktop} mostra un’alta entropia (circa 7.999983 bits per byte) e risulta cifrato mediante algoritmi di full-text encryption (ad es. VeraCrypt o TrueCrypt). Nonostante i tentativi di decifrazione tramite \texttt{hashcat} e varie procedure di boot in ambiente virtuale, il contenuto del file è rimasto inaccessibile. Tale circostanza implica che il file non fornisce elementi probatori aggiuntivi a supporto delle tesi della parte attrice, impedendo una ricostruzione completa di eventuali discrepanze nella gestione del trasporto.
+\end{enumerate}
+Complessivamente, il materiale analizzato – includendo le comunicazioni ufficiali, i log di sistema e il file cifrato – non fornisce basi sufficienti per dimostrare un comportamento scorretto o un inadempimento contrattuale da parte di Partolini.\vspace{14pt}\\
+Pertanto, alla luce di quanto emerso dall’indagine forense, si ritiene che il materiale evidenzi, pur la presenza di alcuni elementi anomali, la regolarità delle operazioni svolte da Partolini.\\In assenza di ulteriori prove chiare e verificabili, non è possibile attribuire a Partolini responsabilità per eventuali errori nella gestione del trasporto, rafforzando così la posizione difensiva dell’azienda.
+

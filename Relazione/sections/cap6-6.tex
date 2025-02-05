@@ -1,13 +1,13 @@
-Durante l'analisi del contenuto del filesystem effettuata con Autopsy, è stato evidenziato come sospetto il file \textbf{Important Documents.zip}, presente nella directory\\
-\textit{C:/Users/Laura/Desktop}. Il motivo della segnalazione del file è dovuto ad un'alta entropia dei suoi contenuti, suggerendo che il file fosse criptato.\\
+Durante l'analisi del contenuto del filesystem effettuata con Autopsy, è stato evidenziato come sospetto il file \textbf{Important Document.zip}, presente nella directory\\
+\texttt{C:/Users/Laura/Desktop}. Il motivo della segnalazione del file è dovuto ad un'alta entropia dei suoi contenuti, suggerendo che il file fosse criptato.\\
 Eseguendo infatti il comando per calcolare l'entropia del contenuto di un file:
 \begin{center}
-    \textit{ent Important Documents.zip}
+    \texttt{ent Important Document.zip}
 \end{center}
 si ottiene il valore \textbf{7.999983} bits per byte, indicando che i bit sono distribuiti uniformemente nel contenuto, quasi vicino al massimo teorico di 8.\vspace{14pt}\\
 Supponendo dunque che il file fosse criptato abbiamo provato ad identificare il tipo di cifratura utilizzando \textbf{hashcat}, eseguendo il comando:
 \begin{center}
-    \textit{hashcat Important Documents.zip}
+    \texttt{hashcat Important Document.zip}
 \end{center}
 L'assenza di header o di una lunghezza specifica del file non suggeriscono una tipologia specifica di cifratura, indicando dunque che si tratta di una full-text-encryption effettuata con algoritmi come \textbf{VeraCrypt} o \textbf{TrueCrypt}.\\
 Data la numerosità di algoritmi di cifratura di questo tipo abbiamo deciso di non procedere con la decifrazione del contenuto in bruteforce, ma piuttosto analizzare altre strade.\vspace{14pt}\\
@@ -25,7 +25,7 @@ Il secondo tentativo è stato quello di utilizzare \textbf{Arsenal Image Mounter
 \end{center}
 Per evitare che il file E01 venisse modificato abbiamo specificato una posizione di write cache dove i cambiamenti effettuati sulla VM vengono salvati.\\
 Arsenal ha dunque montato il disco offline \textbf{PhysicalDrive1} da cui siamo riusciti a creare la virtual machine utilizzando \textbf{VMWare Workstation}.\vspace{14pt}\\
-Durante la creazione della VM abbiamo dovuto configurare diversi parametri. Durante questa fase sono stati effettuati diversi tentativi (non funzionanti). Dopo svariate ore e prove siamo arrivati ad una combinazione di parametri funzionanti, confermati anche da valori trovati su Autopsy:
+Durante la creazione della VM abbiamo dovuto configurare diversi parametri. In questa fase sono stati effettuati diversi tentativi (non funzionanti). Dopo svariate ore e prove siamo arrivati ad una combinazione di parametri funzionanti, confermati anche da valori trovati su Autopsy:
 \begin{itemize}
     \item \textbf{Distribuzione del Sistema Operativo}: Windows 7 Professional
     \item \textbf{Architettura}: x86 32Bit
